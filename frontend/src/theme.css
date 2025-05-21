@@ -1,0 +1,38 @@
+body {
+  background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+  font-family: 'Poppins', sans-serif;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #00695c !important;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #ffffff !important;
+}
+
+.nav-link {
+  color: #000000 !important;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #004d40 !important;
+  text-decoration: underline;
+}
+
+/* Alte stiluri personalizate pentru butoane, hover etc */
+.btn-success {
+  background-color: #00796b;
+  border-color: #004d40;
+}
+
+.btn-success:hover {
+  background-color: #004d40;
+  border-color: #00251a;
+}
