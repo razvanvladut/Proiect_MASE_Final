@@ -30,7 +30,9 @@ jobs:
       - name: Copy React build to backend
         run: |
           robocopy frontend\build backend\build /E
-
+          exit 0
+        shell: cmd
+        
       - name: Install backend dependencies
         working-directory: ./backend
         run: |
