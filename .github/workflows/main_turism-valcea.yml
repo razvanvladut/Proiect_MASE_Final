@@ -59,7 +59,7 @@ jobs:
           path: .
 
       - name: Login to Azure
-        uses: azure/login@v2
+        uses: azure/login@v1
         with:
            oidc: true
            subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
