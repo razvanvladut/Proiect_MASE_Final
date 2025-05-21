@@ -20,7 +20,7 @@ function AdminPanel() {
     }
 
     fetchAttractions();
-  }, []);
+  }, [isAdmin]);
 
   const fetchAttractions = async () => {
     try {
