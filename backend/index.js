@@ -28,11 +28,11 @@ app.use((req, res, next) => {
   next();
 });
 // Servește fișierele statice din React
-app.use(express.static(path.join(__dirname, '../frontend/build')));
+app.use(express.static(path.join(__dirname, 'build')));
 
 // // Pentru orice altă rută ne-API, trimite index.html din React
 app.get(/(.*)/, (req, res) => {
-  res.sendFile(path.join(__dirname, '../frontend/build/index.html'));
+  res.sendFile(path.join(__dirname, 'build' , 'index.html'));
 });
 
 mongoose.connect(process.env.MONGO_URI)
