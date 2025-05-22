@@ -63,7 +63,7 @@ Backend-ul este realizat cu Node.js, Express și MongoDB, iar frontend-ul este o
     ```bash
     npm start
     ```
-4. Accesează aplicația în browser la [http://localhost:3000](http://localhost:3000)
+4. Accesează aplicația în browser la [http://localhost:3000](http://localhost:3000) sau https://proiect-mase-final.onrender.com
 
 ---
 
