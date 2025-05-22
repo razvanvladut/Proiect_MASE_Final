@@ -67,11 +67,4 @@ Backend-ul este realizat cu Node.js, Express și MongoDB, iar frontend-ul este o
 
 ---
 
-## Deploy pe Azure
-
-- Aplicația este configurată să fie deployată automat folosind GitHub Actions.  
-- Asigură-te că setările de mediu (`Application Settings`) din Azure includ variabilele `PORT`, `MONGO_URI`, și `JWT_SECRET`.
-- Folosește un MongoDB accesibil din Azure (de exemplu MongoDB Atlas) pentru baza de date.
-- Aplicația backend servește frontend-ul din folderul `frontend/build` pentru producție.
-
 
